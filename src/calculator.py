@@ -1,3 +1,5 @@
+import math
+
 class Calculator:
 
     def __init__(self, a, b):
@@ -24,3 +26,6 @@ class Calculator:
     
     def pow(self):
         return pow(self.a, self.b)
+    
+    def log(self):
+        return math.log(self.a, self.b);
