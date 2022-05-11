@@ -21,3 +21,6 @@ class Calculator:
             print("Division by zero")
 
         return (self.a / self.b)
+    
+    def pow(self):
+        return pow(self.a, self.b)
